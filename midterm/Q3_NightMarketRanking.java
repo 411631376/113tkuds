@@ -10,8 +10,7 @@ public class Q3_NightMarketRanking {
         for (int i = 0; i < n; i++) {
             scores[i] = Double.parseDouble(sc.nextLine());
         }
-
-        // 選擇排序 Top 5（不真的全排）
+）
         for (int i = 0; i < Math.min(5, n); i++) {
             int maxIdx = i;
             for (int j = i + 1; j < n; j++) {

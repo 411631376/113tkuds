@@ -9,7 +9,6 @@ public class Q7_DailyPowerReverse {
             usage[i] = sc.nextInt();
         }
 
-        // 雙指標反轉陣列
         int left = 0, right = 6;
         while (left < right) {
             int tmp = usage[left];
