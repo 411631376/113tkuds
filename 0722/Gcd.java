@@ -1,6 +1,6 @@
     import java.util.Scanner;
 
-public class gcd{
+public class Gcd{
 
     // 遞迴版歐幾里得演算法
     public static int gcd(int a, int b) {

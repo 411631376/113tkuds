@@ -1,4 +1,4 @@
-public class digitSum {
+public class DigitSum {
 
     public static int digitSum(int n) {
         if (n < 10) {
